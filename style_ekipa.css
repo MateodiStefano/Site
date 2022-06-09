@@ -1,0 +1,196 @@
+html {
+  scroll-behavior: smooth;
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f3f3f3;
+}
+
+/*NAV*/
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(170, 214, 255, 0.986);
+  position: sticky;
+  top:0;
+  z-index: 1;
+  /*font-family: 'Nunito';*/
+  
+
+}
+
+nav .menu {
+  width: 65%;
+  min-height: 70px;
+  margin: auto;
+  
+}
+
+nav .logo {
+  transition: 0.4s;
+  transform: scale(1.0)
+}
+
+nav .logo:hover{
+  transform: scale(1.25);
+  transition: 0.4s;
+
+}
+
+
+nav .logo {
+  float: left;
+  padding-left: 0px;
+  width: 70px;
+  height: auto;
+  
+ 
+}
+
+nav ul {
+  float: right;
+  padding-right: 20px;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+  transition: 0.2s;
+  border-color: rgb(39, 39, 39);
+  border-top: 0px solid;
+}
+
+nav ul li:hover {
+  background-color: #55555500;
+  color: rgb(39, 39, 39);
+  transition: 0.4s; 
+  border-top: 8px solid;
+  border-color: rgb(39, 39, 39);
+}
+
+nav ul li a {
+  display: block;
+  font-family: 'Nunito';
+  font-weight: 100;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+  font-size: 22px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 20px;
+  padding-bottom: 22px;
+  
+}
+
+
+
+nav .tajebanalinia {
+  width: 100%;
+  height: 7px;
+  background-image: linear-gradient(to bottom, rgba(66, 66, 66, 0.800),  rgba(255,0,0,0));
+}
+
+/*MAIN*/
+
+.main{
+  width: 63%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.main h1{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #000000;
+}
+
+
+
+.ekipa{
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  width: 25%;
+  float: left;
+}
+
+.ekipa img{
+  border-radius: 50% ;
+  width: 200px;
+  
+}
+
+.ekipa h2{
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ekipa p{
+  padding-top: 10px;
+  padding-bottom: 100px;
+  font-size: 20px;
+}
+
+/*FOOTER*/
+
+.footer{
+  height: 200px;
+  width: 100%;
+  background-color: rgb(27, 27, 27);
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer-text{
+  width: 80%;
+  color: white;
+  text-align: center;
+}
+
+.footer-text h2{
+  padding-left: 760px;
+  font-size: 17px;
+  color: #b3b3b3;
+}
+
+.footer-text ul{
+  list-style-type: none;
+  padding-left: 350px;
+  padding-top: 50px;
+  color: white;
+  text-align: left;
+}
+
+.kontakt {
+  color: #fff;
+  width: 40%;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 420px;
+}
+
+.mail-tel{
+  color: white;
+  width: 40%;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 420px;
+}
+
+.footer-text li{
+  padding-top: 15px;
+}

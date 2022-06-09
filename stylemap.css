@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  /*---------------- NAV ----------------*/
+  
+  nav {
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    position: sticky;
+    border-bottom: 4px solid;
+    border-color: black;
+    top:0;
+    z-index: 1;
+  
+  }
+  
+  .logo-href :hover{
+    transform: scale(1.15);
+    transition: 0.4s;
+  
+  }
+  
+  nav .menu {
+    width: 75%;
+    min-height: 90px;
+    margin: auto;
+    
+  }
+  
+  nav .logo {
+    float: left;
+    width: 8%;
+    height: auto;
+    transition: 0.4s;
+    transform: scale(1.0)
+   
+  }
+  
+  nav ul {
+    float: right;
+    padding-right: 20px;
+  }
+  
+  nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    
+    
+  }
+  
+  nav ul li a {
+    display: block;
+    font-family: 'Lato';
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    padding: 21px 21px;
+    transform: none;
+    
+  }
+  
+  
+  nav ul li a:hover {
+    background-color: #2c2c2c;
+    color: rgb(255, 255, 255);
+    transition: 0.4s; 
+  }
+
+
+  label
+  {
+    font-size: 30px;
+  }
+
+  
+    h5
+    {
+      text-align:center;
+      font-size: 60px;
+      padding-top: 50px;
+    }
+  
+.mapdiv
+{
+  padding-top: 100px;
+  width: 50%;
+  margin: auto;
+  text-align:center;
+  font-size: 60px;
+  padding-top: 50px;
+}
+
+.mapdiv path
+{
+  fill: black;
+  stroke: black;
+  stroke-width: 4px;
+  transition: fill 0.3s;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(170, 214, 255, 0.986);
+  position: sticky;
+  top:0;
+  z-index: 1;
+  /*font-family: 'Nunito';*/
+  
+
+}
+
+nav .menu {
+  width: 65%;
+  min-height: 70px;
+  margin: auto;
+  
+}
+
+nav .logo {
+  transition: 0.4s;
+  transform: scale(1.0)
+}
+
+nav .logo:hover{
+  transform: scale(1.25);
+  transition: 0.4s;
+
+}
+
+
+nav .logo {
+  float: left;
+  padding-left: 0px;
+  width: 70px;
+  height: auto;
+  
+ 
+}
+
+nav ul {
+  float: right;
+  padding-right: 20px;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+  transition: 0.2s;
+  border-color: rgb(39, 39, 39);
+  border-top: 0px solid;
+}
+
+nav ul li:hover {
+  background-color: #55555500;
+  color: rgb(39, 39, 39);
+  transition: 0.4s; 
+  border-top: 8px solid;
+  border-color: rgb(39, 39, 39);
+}
+
+nav ul li a {
+  display: block;
+  font-family: 'Raleway';
+  font-weight: 100;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+  font-size: 22px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 20px;
+  padding-bottom: 22px;
+  
+}
+
+
+
+nav .tajebanalinia {
+  width: 100%;
+  height: 7px;
+  background-image: linear-gradient(to bottom, rgba(66, 66, 66, 0.800),  rgba(255,0,0,0));
+}
